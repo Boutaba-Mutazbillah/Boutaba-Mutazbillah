@@ -44,8 +44,3 @@ section .stack
 ---
 
 *“Simplicity is the ultimate sophistication, especially at Ring 0.”*
-
-## Technical Inventory
-- **Languages:** Assembly (x86_64), C/C++20, Python
-- **Environment:** Arch Linux, Systemd
-- **Analysis:** IDA Pro, Ghidra, GDB
