@@ -12,32 +12,38 @@ _start:
     syscall
 ```
 
-## Professional Summary
-Academic systems engineer specializing in low-level Arch Linux security, hardware memory protection, and assembly-level binary analysis.
+# Hi, I'm Motezeballah Boutaba 
+
+I am a Computer Science Student at **Università degli Studi dell'Insubria** (Italy), deeply invested in systems programming and binary security research. My daily environment is driven by **Arch Linux**, working closely with bare-metal execution and software isolation mechanics.
+
+-  **Focus:** Linux Internals, Reverse Engineering, and Kernel Security Sandboxes.
+-  **Approach:** Building lightweight Proof-of-Concepts (PoCs) to study anti-analysis and memory mitigation strategies.
 
 ---
 
-## Architecture Operational Flow
+###  Core Tech Stack
 
-```mermaid
-graph TD
-    A[Arch Linux Boot] --> B[Load Security Pipeline]
-    B --> C[Scan CPU Registers]
-    C --> D{Verify Integrity}
-    D -->|Secure| E[Execute Ops]
-    D -->|Anomalous| F[Trigger Isolation]
-    F --> G[Kernel Halt]
-
-    style A fill:#1a1a24,color:#fff
-    style B fill:#1a1a24,color:#fff
-    style C fill:#1e1b4b,color:#fff
-    style D fill:#311005,color:#fff
-    style E fill:#062d1a,color:#fff
-    style F fill:#450a0a,color:#fff
-    style G fill:#1a1a24,color:#fff
+```assembly
+; Driven by efficiency and control
+section .stack
+    languages:  db 'C', 0, 'C++', 0, 'x86_64 Assembly', 0
+    os_kernel:  db 'Arch Linux (Custom Environment)', 0
 ```
 
+- **Languages:** Pure C, Modern C++, and x86_64 Assembly (NASM / AT&T syntax).
+- **Toolchain:** GCC, Clang, Make, GDB, and x64dbg.
+- **Environment:** Custom Arch Linux setup optimized for binary auditing and systems compilation.
+
 ---
+
+###  Active Research Areas
+- **Anti-Debugging:** Intercepting process tracers via native `sys_ptrace` and microarchitectural timing analysis (`RDTSC`).
+- **Memory Integrity:** Implementing stack smash protections (Canaries) and memory pattern matching in user-space.
+- **Network Telemetry:** Auditing raw network sockets and exploring dynamic packet routing behaviors.
+
+---
+
+*“Simplicity is the ultimate sophistication, especially at Ring 0.”*
 
 ## Technical Inventory
 - **Languages:** Assembly (x86_64), C/C++20, Python
