@@ -43,4 +43,3 @@ section .stack
 
 ---
 
-*“Simplicity is the ultimate sophistication, especially at Ring 0.”*
