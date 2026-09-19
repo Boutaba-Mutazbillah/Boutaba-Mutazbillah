@@ -31,9 +31,9 @@ section .stack
 ```
 
 - **Languages:** Pure x86_64 Assembly (NASM / AT&T syntax).
-- **Toolchain:** NASM, Make, GDB, and x64dbg.
-- **Environment:** Custom Arch Linux setup optimized for binary auditing and systems compilation.
-
+- **Toolchain:** NASM, Make, x64dbg, WinDbg.
+- **Monitoring & Auditing:** Sysinternals Suite and Volatile Memory.
+- **Environment:** Custom Arch Linux & Windows environments optimized for binary auditing, static editing (Notepad++), and systems compilation.
 ---
 
 ###  Active Research Areas
