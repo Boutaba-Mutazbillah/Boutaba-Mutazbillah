@@ -26,12 +26,12 @@ I am a Computer Science Student at **Università degli Studi dell'Insubria** (It
 ```assembly
 ; Driven by efficiency and control
 section .stack
-    languages:  db 'C', 0, 'C++', 0, 'x86_64 Assembly', 0
+    languages:  db 'x86_64 Assembly', 0
     os_kernel:  db 'Arch Linux (Custom Environment)', 0
 ```
 
-- **Languages:** Pure C, Modern C++, and x86_64 Assembly (NASM / AT&T syntax).
-- **Toolchain:** GCC, Clang, Make, GDB, and x64dbg.
+- **Languages:** Pure x86_64 Assembly (NASM / AT&T syntax).
+- **Toolchain:** NASM, Make, GDB, and x64dbg.
 - **Environment:** Custom Arch Linux setup optimized for binary auditing and systems compilation.
 
 ---
