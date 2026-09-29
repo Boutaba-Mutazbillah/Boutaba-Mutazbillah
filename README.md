@@ -1,4 +1,4 @@
-# Boutaba Motezeballah
+# Boutaba Mu'tazb illah
 ### Systems Architect & Reverse Engineer
 
 ```assembly
@@ -12,7 +12,7 @@ _start:
     syscall
 ```
 
-# Hi, I'm Motezeballah Boutaba 
+# Hi, I'm Mu'taz billah Boutaba 
 
 I am a Computer Science Student at **Università degli Studi dell'Insubria** (Italy), deeply invested in systems programming and binary security research. My daily environment is driven by **Arch Linux**, working closely with bare-metal execution and software isolation mechanics.
 
