@@ -30,9 +30,9 @@ section .stack
     os_kernel:  db 'Arch Linux (Custom Environment)', 0
 ```
 
-- **Languages:** Pure x86_64 Assembly (NASM / AT&T syntax).
+- **Languages:** x86_64 Assembly (NASM / AT&T syntax).
 - **Toolchain:** NASM, Make, x64dbg, WinDbg.
-- **Monitoring & Auditing:** Sysinternals Suite and Volatile Memory.
+- **Monitoring & Auditing:** Sysinternals Suite and Memory.
 - **Environment:** Custom Arch Linux & Windows environments optimized for binary auditing, static editing (Notepad++), and systems compilation.
 ---
 
