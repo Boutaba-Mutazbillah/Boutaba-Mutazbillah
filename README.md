@@ -14,7 +14,7 @@ _start:
 
 # Hi, I'm Mu'taz billah Boutaba 
 
-I am a Computer Science Student at **Università degli Studi dell'Insubria** (Italy), deeply invested in systems programming and binary security research. My daily environment is driven by **Arch Linux**, working closely with bare-metal execution and software isolation mechanics.
+I am a Computer Science Student at **Università degli Studi dell'Insubria** (Italy), deeply invested in systems programming and binary security research. My daily environment is driven by **Arch Linux**, working closely with bare-metal execution and software isolation mechanics. 
 
 -  **Focus:** Linux Internals, Reverse Engineering, and Kernel Security Sandboxes.
 -  **Approach:** Building lightweight Proof-of-Concepts (PoCs) to study anti-analysis and memory mitigation strategies.
