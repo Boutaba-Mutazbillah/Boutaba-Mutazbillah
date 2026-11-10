@@ -62,4 +62,4 @@ section .stack
 ## [0x05] Connect & Collaboration
 If you are interested in binary security research, low-level engineering, or career opportunities, feel free to reach out:
 - **Email:** mutaz.billah.revas [at] gmail.com
-- **LinkedIn:** [Mu'taz billah Boutaba](https://linkedin.com)
+- **LinkedIn:** [Mu'taz billah Boutaba]( https://www.linkedin.com/in/mu-taz-billah-boutaba-39ab053a1/ )
