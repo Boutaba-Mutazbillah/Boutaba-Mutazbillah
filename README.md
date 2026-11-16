@@ -2,14 +2,15 @@
 ### Low-Level Security Researcher & Reverse Engineer (`Ring 3 ➔ Ring 0`)
 
 ```assembly
-; Arch Linux Microarchitectural Initialization Profile
+; Windows x64 Bare-Metal Silicon Profile (Zero-API)
 section .text
     global _start
 
 _start:
-    mov rax, 60         ; sys_exit syscall
-    xor rdi, rdi        ; status 0
-    syscall
+    rdtsc                   ; Read raw CPU cycle counter
+    xor rax, rdx            ; Entropy & register state mutation
+    cpuid                   ; Direct silicon architectural query
+    hlt                     ; Strict hardware execution halt
 ```
 
 # Hi, I'm Mu'taz billah Boutaba 
