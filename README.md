@@ -25,7 +25,7 @@ I am a Computer Science Student at **Università degli Studi dell'Insubria** (It
 I do not rely on high-level APIs or automated wrappers that analysts can easily hook; my approach is built from the ground up by interacting directly with the CPU and pure mathematical logic. My research operates on a strict, self-contained **Red-vs-Blue feedback loop**:
 
 1. **Deep Hardware Exploration:** Dissecting raw CPU instructions, registers, caches, and microarchitectural behaviors down to the cycle level—turning every newly learned instruction into both an offensive and defensive primitive.
-2. **Zero-API & Math-Driven Crafting:** Writing ultra-compact, high-speed Assembly payloads (`<20 lines`) driven purely by math and register manipulation—leaving zero external API calls to intercept.
+2. **Zero-API & Math-Driven Crafting:** Writing ultra-compact, high-speed Assembly payloads driven purely by math and register manipulation—leaving zero external API calls to intercept.
 3. **Self-Adversarial Testing & Documentation:** Executing custom binaries in isolated environments under debuggers (`x64dbg`, `WinDbg`) and telemetry tools to break my own logic, while rigorously mapping register and memory states with **pen and paper**.
 4. **Bare-Metal Defense Engineering:** Translating discovered weaknesses into resilient, low-overhead countermeasures engineered to detect and neutralize tampering directly at the hardware level.
 
