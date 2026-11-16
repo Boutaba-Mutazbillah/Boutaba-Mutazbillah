@@ -41,16 +41,16 @@ I do not rely on high-level APIs or automated wrappers that analysts can easily 
 
 ```assembly
 ; Driven by efficiency and control
-section .stack
-    languages:  db 'x86_64 Assembly (Zero-API)', 0
-    os_kernel:  db 'Arch Linux & Windows Internals', 0
+section .data
+    languages:  db 'x86_64 Assembly (Zero-API / Raw CPU Primitives)', 0
+    os_kernel:  db 'Windows 10 Education & Windows Internals', 0
 ```
 
-- **Languages:** Pure `x86` / `x86_64` Assembly (NASM / MASM),.
-- **Toolchain & Disassemblers:** NASM, Make, Ghidra, AkelPad, x96dbg (x64dbg / x32dbg), WinDbg, GoBug.
-- **Editors & IDEs:** Notepad++, SASM (Simple ASM), MASM32 Editor.
+- **Languages:** Pure `x86` / `x86_64` Assembly (NASM / MASM).
+- **Toolchain & Disassemblers:** NASM, Make, Ghidra, x96dbg (x64dbg / x32dbg), WinDbg, GoBug.
+- **Editors & IDEs:** Notepad++, SASM (Simple ASM), MASM32 Editor, AkelPad.
 - **Monitoring & Auditing:** Full Sysinternals Suite, Full NirSoft Tools Suite, Wireshark (Raw socket & packet telemetry), and Pen & Paper (for register/state mapping).
-- **Environments:** Custom Arch Linux environment and isolated Windows Enterprise Evaluation setups optimized for binary auditing and systems compilation.
+- **Environments:** Custom Arch Linux environment and isolated Windows 10 Education / Enterprise Evaluation setups optimized for binary auditing and systems compilation.
 
 ---
 
