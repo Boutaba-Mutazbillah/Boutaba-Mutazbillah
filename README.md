@@ -2,27 +2,26 @@
 ### Low-Level Security Researcher & Reverse Engineer (`Ring 3 ➔ Ring 0`)
 
 ```assembly
-; Windows x64 Bare-Metal Silicon Profile (Zero-API)
 section .text
     global _start
 
 _start:
-    rdtsc                   ; Read raw CPU cycle counter
-    xor rax, rdx            ; Entropy & register state mutation
-    cpuid                   ; Direct silicon architectural query
-    hlt                     ; Strict hardware execution halt
+    rdtsc                  
+    xor rax, rdx           
+    cpuid                   
+    hlt                     
 ```
 
 # Hi, I'm Mu'taz billah Boutaba 
 
-I am a Computer Science Student at **Università degli Studi dell'Insubria** (Italy), deeply invested in systems programming and binary security research. My daily environment is driven by **Arch Linux** alongside isolated **Windows** setups, working closely with bare-metal execution and software isolation mechanics. 
+I am a Computer Science Student at **Università degli Studi dell'Insubria** (Italy), deeply invested in systems programming and binary security research. My daily environment is driven by **Arch Linux** alongside isolated **Windows Education** setups, working closely with bare-metal execution and software isolation mechanics. 
 
 - **Focus:** OS Internals (`Ring 3` to `Ring 0`), Reverse Engineering, and Bare-Metal Security.
 - **Approach:** Speaking the CPU's native tongue—building ultra-compact, zero-API Proof-of-Concepts (PoCs) driven by pure math and raw hardware behavior.
 
 ---
 
-## [0x01] Methodology: The Adversarial Loop & Zero-API Execution
+## [0x01] Methodology
 I do not rely on high-level APIs or automated wrappers that analysts can easily hook; my approach is built from the ground up by interacting directly with the CPU and pure mathematical logic. My research operates on a strict, self-contained **Red-vs-Blue feedback loop**:
 
 1. **Deep Hardware Exploration:** Dissecting raw CPU instructions, registers, caches, and microarchitectural behaviors down to the cycle level—turning every newly learned instruction into both an offensive and defensive primitive.
@@ -32,38 +31,31 @@ I do not rely on high-level APIs or automated wrappers that analysts can easily 
 
 ---
 
-## [0x02] Low-Level Data Representation & Machine Code Expertise
-- **Multi-Base Mastery:** Expert in navigating and manipulating raw architecture data across all numeral systems: **Binary (Base-2), Octal (Base-8), Decimal (Base-10), and Hexadecimal (Base-16)**.
-- **Pure Binary & Hex Engineering:** Capability to analyze, write, and patch executables directly at the byte level (**Raw Bytes / Machine Code**), enabling the creation and modification of standalone software structures or payloads without relying on standard assemblers.
-
----
-
-## [0x03] Core Tech Stack
+## [0x02] Core Tech Stack
 
 ```assembly
-; Driven by efficiency and control
+
 section .data
     languages:  db 'x86_64 Assembly (Zero-API / Raw CPU Primitives)', 0
     os_kernel:  db 'Windows 10 Education & Windows Internals', 0
 ```
 
-- **Languages:** Pure `x86` / `x86_64` Assembly (NASM / MASM).
-- **Toolchain & Disassemblers:** NASM, Make, Ghidra, x96dbg (x64dbg / x32dbg), WinDbg, GoBug.
+- **Languages:** `x86` / `x86_64` Assembly (NASM / MASM).
+- **Toolchain & Disassemblers:** NASM, Ghidra, x96dbg (x64dbg / x32dbg), WinDbg, GoBug.
 - **Editors & IDEs:** Notepad++, SASM (Simple ASM), MASM32 Editor, AkelPad.
 - **Monitoring & Auditing:** Full Sysinternals Suite, Full NirSoft Tools Suite, Wireshark (Raw socket & packet telemetry), and Pen & Paper (for register/state mapping).
-- **Environments:** Custom Arch Linux environment and isolated Windows 10 Education / Enterprise Evaluation setups optimized for binary auditing and systems compilation.
-
+My primary daily environment is **Windows 10 Education**, complemented by lightweight **Arch Linux** setups for cross-platform systems exploration, working closely with bare-metal execution and software isolation mechanics.
 ---
 
-## [0x04] Active Research Areas
+## [0x03] Active Research Areas
 - **Microarchitectural & Hardware-Level Defense:** Exploiting raw CPU instructions, timing anomalies, cache behaviors, and hardware internals to detect debuggers, sandboxes, and execution tampering without API dependencies.
 - **Memory & Execution Integrity:** Implementing custom, math-driven anti-tamper mechanisms, stack protections, and user/kernel-space anomaly detection.
 - **Network Telemetry:** Auditing raw network sockets and exploring dynamic packet routing behaviors.
 
 ---
 
-## [0x05] Connect & Collaboration
-If you are interested in binary security research, low-level engineering, or career opportunities, feel free to reach out:
+## [0x04] Connect 
+
 - **Email:** mutaz.billah.revas [at] gmail.com
 - **LinkedIn:** [Mu'taz billah Boutaba](https://www.linkedin.com/in/mu-taz-billah-boutaba-39ab053a1/)
 
