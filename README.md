@@ -68,5 +68,3 @@ If you are interested in binary security research, low-level engineering, or car
 - **LinkedIn:** [Mu'taz billah Boutaba](https://www.linkedin.com/in/mu-taz-billah-boutaba-39ab053a1/)
 
 ---
-
-> *"Abstractions hide the truth; registers never lie. To build a defense that cannot be bypassed, you must first become the adversary that breaks it."*
