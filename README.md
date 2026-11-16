@@ -14,7 +14,7 @@ _start:
 
 # Hi, I'm Mu'taz billah Boutaba 
 
-I am a Computer Science Student at **Università degli Studi dell'Insubria** (Italy), deeply invested in systems programming and binary security research. My daily environment is driven by **Arch Linux** alongside isolated **Windows Education** setups, working closely with bare-metal execution and software isolation mechanics. 
+I am a Computer Science Student at **Università degli Studi dell'Insubria** (Italy), deeply invested in systems programming and binary security research. My primary daily environment is **Windows 10 Education**, complemented by lightweight **Arch Linux** setups for cross-platform systems exploration, working closely with bare-metal execution and software isolation mechanics.
 
 - **Focus:** OS Internals (`Ring 3` to `Ring 0`), Reverse Engineering, and Bare-Metal Security.
 - **Approach:** Speaking the CPU's native tongue—building ultra-compact, zero-API Proof-of-Concepts (PoCs) driven by pure math and raw hardware behavior.
@@ -44,7 +44,7 @@ section .data
 - **Toolchain & Disassemblers:** NASM, Ghidra, x96dbg (x64dbg / x32dbg), WinDbg, GoBug.
 - **Editors & IDEs:** Notepad++, SASM (Simple ASM), MASM32 Editor, AkelPad.
 - **Monitoring & Auditing:** Full Sysinternals Suite, Full NirSoft Tools Suite, Wireshark (Raw socket & packet telemetry), and Pen & Paper (for register/state mapping).
-My primary daily environment is **Windows 10 Education**, complemented by lightweight **Arch Linux** setups for cross-platform systems exploration, working closely with bare-metal execution and software isolation mechanics.
+- **Environments:** Windows 10 Education & Enterprise Evaluation setups for binary auditing, plus Arch Linux environments.
 ---
 
 ## [0x03] Active Research Areas
